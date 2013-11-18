@@ -1,4 +1,4 @@
-//  DayDropDownMenu.m
+//  DropDownMenu.m
 //
 //  Copyright (c) 2013 Kevin Randrup. All rights reserved.
 //
@@ -15,7 +15,7 @@
 - (void)setup
 {
     NSString *title = [self titleForState:UIControlStateNormal];
-    [self setTitle:title forState:UIControlStateNormal]; //Add arrow if title set in storyboard
+    [self setTitle:title forState:UIControlStateNormal]; //Adds arrow if title set in storyboard
     [self addTarget:self action:@selector(tap) forControlEvents:UIControlEventTouchUpInside];
 }
 
