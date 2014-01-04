@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "Kevin Randrup" => "kevinrandrup@gmail.com" }
   s.social_media_url = "https://twitter.com/kevinrandrup"
   s.platform     = :ios, '5.0'
-  s.source       = { :git => "https://github.com/kevinrandrup/CWDropDownMenu.git", :commit => "6e37a0054e947a38c35f9a0059fb56ed5cc2f922" }
+  s.source       = { :git => "https://github.com/kevinrandrup/CWDropDownMenu.git", :commit => "3713ae85ac0aab545d5d96729a8b37bb792890d4" }
 
   s.source_files  = 'Classes/CWDropDownMenu.{h,m}'
   s.frameworks   = "UIKit"
