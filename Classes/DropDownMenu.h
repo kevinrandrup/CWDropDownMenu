@@ -12,7 +12,7 @@
 
 @property (nonatomic) NSArray *items; //Array of strings to be displayed in the menu.
 
-@property (nonatomic, strong) void(^SelectionBlock)(NSString *selectedItem); //Called when an item is selected
+@property (nonatomic, strong) void(^selectionBlock)(NSString *selectedItem); //Called when an item is selected
 - (void)setSelectionBlock:(void (^)(NSString *selectedItem))SelectionBlock;//Nescessary for proper code completion
 
 @property (nonatomic, weak) id<DropDownMenuDelegate> delegate;

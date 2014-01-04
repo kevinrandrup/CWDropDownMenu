@@ -9,6 +9,7 @@
 @end
 
 @implementation DropDownMenu
+@synthesize selectionBlock = _selectionBlock;
 
 #pragma mark - Setup/Teardown
 
@@ -36,6 +37,11 @@
 {
     self.delegate = nil;
     [super removeFromSuperview];
+}
+
+- ((void(^)(NSString *selectedItem)))selectionBlock
+{
+    return _selectionBlock;
 }
 
 #pragma mark - Title

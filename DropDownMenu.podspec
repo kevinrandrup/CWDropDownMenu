@@ -7,11 +7,12 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => 'LICENSE' }
   s.author       = { "Kevin Randrup" => "kevinrandrup@gmail.com" }
   s.social_media_url = "https://twitter.com/kevinrandrup"
-  s.platform     = :ios
-  s.source       = { :git => "https://github.com/kevinrandrup/DropDownMenu.git", :commit => "09c9b3d515b78550557eabc0a8542f9f6f2623cf" }
+  s.platform     = :ios, '5.0'
+  s.source       = { :git => "https://github.com/kevinrandrup/DropDownMenu.git", :commit => "0d6761feefccff1f7d8b7c7788ceb8e9cd1314ea" }
 
-  s.source_files  = 'Classes'
+  s.source_files  = 'Classes/DropDownMenu.{h,m}'
   s.frameworks   = "UIKit"
   s.requires_arc = true
+
 
 end
