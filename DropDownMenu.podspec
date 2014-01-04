@@ -10,9 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :git => "https://github.com/kevinrandrup/DropDownMenu.git", :commit => "09c9b3d515b78550557eabc0a8542f9f6f2623cf" }
 
-  s.source_files  = 'Classes/*.{h,m}'
-
-
+  s.source_files  = 'Classes/DropDownMenu.{h,m}'
   s.frameworks   = "UIKit"
   s.requires_arc = true
 
