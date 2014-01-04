@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name         = “CWDropDownMenu"
+  s.name         = "CWDropDownMenu"
   s.version      = "0.0.1"
-  s.summary      = “CWDropDownMenu is a block based UIButton subclass that uses UIActionSheet to present a drop down menu. "
+  s.summary      = "CWDropDownMenu is a block based UIButton subclass that uses UIActionSheet to present a drop down menu."
 
   s.homepage     = "https://github.com/kevinrandrup/CWDropDownMenu"
   s.license      = { :type => "MIT", :file => 'LICENSE' }
@@ -13,6 +13,5 @@ Pod::Spec.new do |s|
   s.source_files  = 'Classes/CWDropDownMenu.{h,m}'
   s.frameworks   = "UIKit"
   s.requires_arc = true
-
 
 end

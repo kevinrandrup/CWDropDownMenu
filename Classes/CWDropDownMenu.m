@@ -9,7 +9,7 @@
 typedef void (^SelectionBlock)(NSString *);
 @end
 
-@implementation DropDownMenu
+@implementation CWDropDownMenu
 @synthesize selectionBlock = _selectionBlock;
 
 #pragma mark - Setup/Teardown

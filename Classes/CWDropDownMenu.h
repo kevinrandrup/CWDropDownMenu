@@ -6,7 +6,7 @@
 #import <UIKit/UIKit.h>
 
 
-@protocol DropDownMenuDelegate;
+@protocol CWDropDownMenuDelegate;
 
 @interface CWDropDownMenu : UIButton
 
