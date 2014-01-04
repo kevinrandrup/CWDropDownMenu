@@ -6,6 +6,7 @@
 #import "DropDownMenu.h"
 
 @interface DropDownMenu () <UIActionSheetDelegate>
+typedef void (^SelectionBlock)(NSString *);
 @end
 
 @implementation DropDownMenu
@@ -39,7 +40,7 @@
     [super removeFromSuperview];
 }
 
-- ((void(^)(NSString *selectedItem)))selectionBlock
+- (id)selectionBlock
 {
     return _selectionBlock;
 }
