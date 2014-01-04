@@ -15,7 +15,7 @@
 @property (nonatomic, copy) void(^selectionBlock)(NSString *selectedItem); //Called when an item is selected
 - (void)setSelectionBlock:(void (^)(NSString *selectedItem))SelectionBlock;//Nescessary for proper code completion
 
-@property (nonatomic, weak) id<DropDownMenuDelegate> delegate;
+@property (nonatomic, weak) id<CWDropDownMenuDelegate> delegate;
 
 @end
 
