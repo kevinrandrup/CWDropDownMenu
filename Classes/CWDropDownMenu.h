@@ -21,5 +21,5 @@
 
 
 @protocol CWDropDownMenuDelegate <NSObject>
-- (void)dropDownMenu:(DropDownMenu *)menu didSelectItem:(NSString *)selectedItem; //Called when an item is selected
+- (void)dropDownMenu:(CWDropDownMenu *)menu didSelectItem:(NSString *)selectedItem; //Called when an item is selected
 @end
