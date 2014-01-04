@@ -40,7 +40,7 @@ typedef void (^SelectionBlock)(NSString *);
     [super removeFromSuperview];
 }
 
-- (void(^)(NSString *)selectionBlock
+- (void(^)(NSString *))selectionBlock
 {
     return _selectionBlock;
 }
