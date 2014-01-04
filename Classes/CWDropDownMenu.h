@@ -1,6 +1,6 @@
-//  DropDownMenu.h
+//  CWDropDownMenu.h
 //
-//  Copyright (c) 2013 Kevin Randrup. All rights reserved.
+//  Copyright (c) 2014 Kevin Randrup. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -8,7 +8,7 @@
 
 @protocol DropDownMenuDelegate;
 
-@interface DropDownMenu : UIButton
+@interface CWDropDownMenu : UIButton
 
 @property (nonatomic) NSArray *items; //Array of strings to be displayed in the menu.
 
@@ -20,6 +20,6 @@
 @end
 
 
-@protocol DropDownMenuDelegate <NSObject>
+@protocol CWDropDownMenuDelegate <NSObject>
 - (void)dropDownMenu:(DropDownMenu *)menu didSelectItem:(NSString *)selectedItem; //Called when an item is selected
 @end

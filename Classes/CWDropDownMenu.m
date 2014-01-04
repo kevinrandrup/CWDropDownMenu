@@ -1,11 +1,11 @@
-//  DropDownMenu.m
+//  CWDropDownMenu.m
 //
-//  Copyright (c) 2013 Kevin Randrup. All rights reserved.
+//  Copyright (c) 2014 Kevin Randrup. All rights reserved.
 //
 
-#import "DropDownMenu.h"
+#import "CWDropDownMenu.h"
 
-@interface DropDownMenu () <UIActionSheetDelegate>
+@interface CWDropDownMenu () <UIActionSheetDelegate>
 typedef void (^SelectionBlock)(NSString *);
 @end
 
